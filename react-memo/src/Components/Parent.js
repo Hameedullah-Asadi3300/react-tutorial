@@ -3,8 +3,14 @@
 Using memo will cause react to skip rendering a component if its props have not changed
 which can help improving the performance.
 How to use memo?
-First of all, import the React component to the component file that you do not want it to be rendered.
-
+First of all, import the React component to the component file that you do not want it to be rendered like so:
+        import React from 'react';
+Then while exporting the component, do so:
+        export default React.memo(Child);
+This memo will actually memorize the value of the component, and will not be rendered in case the parent
+component renders.
+This is specially useful shen there are tens or hundreds of components, and rendering all the child components
+can severly affect the app performance.
 */
 
 
