@@ -13,7 +13,6 @@ This is specially useful shen there are tens or hundreds of components, and rend
 can severly affect the app performance.
 */
 
-
 import React, { useState } from 'react';
 import Child from '../Components/Child.js';
 
