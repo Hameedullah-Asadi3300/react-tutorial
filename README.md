@@ -30,7 +30,7 @@ This repo contains all the basics and advanced topics in JavaScript React librar
     modal is a message box contains information and pops up when some sorts of action is done on website. Modals appear at the
     top of the web page because they have different css style which makes them look different.
     
-    ![image](https://github.com/Hameedullah-Asadi3300/react-tutorial/assets/123219655/322f15da-b1b0-4d63-ac70-cf8de376bfe4)
+![image](https://github.com/Hameedullah-Asadi3300/react-tutorial/assets/123219655/322f15da-b1b0-4d63-ac70-cf8de376bfe4)
 
     These modals cannot be part of the page, means the <div></div> element for these modals should be different that the <div></div> elements      of the page.
     So, if we put the portals inside the root element, it will not get the different styling and standout.
