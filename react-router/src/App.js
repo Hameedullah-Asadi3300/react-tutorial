@@ -6,11 +6,19 @@ To create anchor tags or links between
 
 */
 
-import { BrowserRouter, Routes, Route, Link, NavLink} from 'react-router-dom'
-import './App.css';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Link,
+  NavLink
+} from 'react-router-dom'
+  
 //  pages
 import Home from './pages/Home.js';
 import About from './pages/About.js'
+import Projects from './pages/Projects.js';
+import Contact from './pages/Contact.js';
 
 
 function App() {
@@ -23,13 +31,13 @@ function App() {
       <header>
         <nav>
           <h1>Job Router</h1>
-          <Link to="/">Home</Link>
+          <NavLink to="/">Home</NavLink>
           <NavLink to="about">About</NavLink>
+          <NavLink to="projects">Projects</NavLink>
+          <NavLink to="contact">Contact</NavLink>
           
 
-          
-
-
+      
           </nav>
       </header>
       <main>
@@ -39,6 +47,8 @@ function App() {
           {/* The following Route component is for homepage. In the elemtn, the component name goes. */}
           <Route path="/" element={<Home />} />              {/*We can also write the above code as follows: <Route index element=""{<Home />} />*/}
           <Route path="about" element={<About />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="contact" element={<Contact />} />
         </Routes>
     </main>
   </BrowserRouter>

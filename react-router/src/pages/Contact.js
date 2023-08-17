@@ -1,7 +1,9 @@
-function Home() {
+
+
+function Contact() {
     return (
-        <div className="home">
-            <h2>Welcome</h2>
+        <div className="contact">
+            <h2>Contact Me</h2>
             <p> This is is a junk text used to see how my application looks like.
                 This is is a junk text used to see how my application looks like.
                 This is is a junk text used to see how my application looks like.
@@ -19,9 +21,9 @@ function Home() {
                 This is is a junk text used to see how my application looks like.
                 This is is a junk text used to see how my application looks like.
                 This is is a junk text used to see how my application looks like.
-                
+                This is is a junk text used to see how my application looks like.
             </p>
         </div>
     )
 }
-export default Home;
+export default Contact;

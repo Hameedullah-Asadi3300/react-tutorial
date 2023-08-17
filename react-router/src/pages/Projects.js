@@ -1,7 +1,10 @@
-function Home() {
+
+
+
+function Projects() {
     return (
-        <div className="home">
-            <h2>Welcome</h2>
+        <div className="projects">
+            <h2>Projects</h2>
             <p> This is is a junk text used to see how my application looks like.
                 This is is a junk text used to see how my application looks like.
                 This is is a junk text used to see how my application looks like.
@@ -19,9 +22,9 @@ function Home() {
                 This is is a junk text used to see how my application looks like.
                 This is is a junk text used to see how my application looks like.
                 This is is a junk text used to see how my application looks like.
-                
-            </p>
+                This is is a junk text used to see how my application looks like.</p>
         </div>
     )
 }
-export default Home;
+
+export default Projects;
