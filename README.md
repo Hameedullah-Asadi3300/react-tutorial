@@ -52,3 +52,7 @@ This repo contains all the basics and advanced topics in JavaScript React librar
     )
     }
     And nest it with App component. However it is nested with App component, but it is not part of the <div id="root"></div>.
+
+## React-router
+    The react-router.js file contains the practical example of how to routing a single page website works.
+    This example contains four page in a single web page which is router to each other.
