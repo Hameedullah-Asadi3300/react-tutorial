@@ -35,9 +35,6 @@ function App() {
           <NavLink to="about">About</NavLink>
           <NavLink to="projects">Projects</NavLink>
           <NavLink to="contact">Contact</NavLink>
-          
-
-      
           </nav>
       </header>
       <main>
@@ -54,6 +51,5 @@ function App() {
   </BrowserRouter>
   );
 }
-
 
 export default App;
